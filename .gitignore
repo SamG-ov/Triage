@@ -1,0 +1,19 @@
+# --- Secrets: NEVER commit these ---
+.env
+
+# --- Python virtual environment (huge, machine-specific) ---
+.venv/
+
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# --- Datasets & generated outputs (can be large; regenerated from code) ---
+data/
+results/
+
+# --- OS / editor noise ---
+.DS_Store
+.vscode/
+.idea/

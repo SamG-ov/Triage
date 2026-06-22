@@ -1,0 +1,20 @@
+# LLM provider SDK (Claude)
+anthropic>=0.40
+
+# Structured output: define & validate the model's response shape
+pydantic>=2.7
+
+# Data handling: load, sample, dedupe, check class balance
+pandas>=2.2
+
+# Dataset access (Hugging Face); we may instead use a Kaggle CSV — decided in Phase 1
+datasets>=2.19
+
+# Demoable command-line interface
+typer>=0.12
+
+# Load secrets from .env at runtime
+python-dotenv>=1.0
+
+# Lightweight guardrail tests for the eval harness
+pytest>=8.0
