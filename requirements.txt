@@ -16,5 +16,9 @@ typer>=0.12
 # Load secrets from .env at runtime
 python-dotenv>=1.0
 
+# Use the Windows system certificate store (fixes SSL errors behind AV/proxy
+# TLS interception). Without this, certifi rejects re-signed certificates.
+truststore>=0.9
+
 # Lightweight guardrail tests for the eval harness
 pytest>=8.0
