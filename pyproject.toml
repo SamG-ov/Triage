@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# Let tests import the local `triage` package without installing it.
+pythonpath = ["."]
+testpaths = ["tests"]
